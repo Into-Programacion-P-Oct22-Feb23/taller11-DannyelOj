@@ -11,4 +11,12 @@ package problemas;
  */
 public class Problema7 {
     
+    public static void main(String[] args) {
+        // 
+        int numeroDatos = 3;
+        int[] informacion = obtenerDatos(numeroDatos);
+        for (int i = 0; i < informacion.length; i++) {
+            System.out.printf("Datos ingresado: %d\n", informacion[i]);
+        }
+    }
 }
